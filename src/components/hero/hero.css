@@ -9,7 +9,7 @@
 
 .hero h1,
 .hero h2 {
-  color: #0c295c;
+  color: var(--clr1);
   text-shadow: 2px 2px var(--clr1);
 }
 

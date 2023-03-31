@@ -1,6 +1,6 @@
 // importing various folders/libraries to use here
 import React from "react";
-import HeroImg from "../../assets/after3.png";
+import HeroImg from "../../assets/after5.png";
 import "./hero.css";
 
 //function that creates a hero element for the App
