@@ -7,6 +7,7 @@ import Contact from './pages/contact';
 import Frontpage from './pages/frontpage';
 import Gallery from './pages/gallery';
 
+
 function App() {
   return (
     <Router>
