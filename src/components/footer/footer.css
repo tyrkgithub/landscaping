@@ -1,0 +1,30 @@
+.footer {
+  
+   margin-top: auto;
+   height: 60px;
+   width: 100%;
+   position: fixed;
+   bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  border-top: 5px;
+  border-color: var(--clr3);
+  background-color: var(--clr3);
+}
+
+.footerLinks {
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  color: var(--clr1);
+  background-color: var(--clr3) !important;
+  display: inline-flex;
+}
+
+.footerLinks:hover {
+  color: var(--clr5);
+}
