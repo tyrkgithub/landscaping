@@ -1,12 +1,15 @@
 // importing various folders/libraries to use here
 import React from "react";
-import "./AboveFooter.css";
+import "./aboveFooter.css";
+import { Link } from "react-router-dom";
 
 //function that creates a hero element for the App
 function AboveFooter() {
   return (
     <div className="aboveFooter">
-      <h2 className="aboveFooter h2">Design. Transform. Enjoy. Distinctive landscaping at its finest.</h2>
+      <h4 className="aboveFooter h4">Call Today</h4>
+      <Link to="tel:07985922312">07985922312</Link>
+      
     </div>
   );
 }

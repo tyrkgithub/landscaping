@@ -6,6 +6,7 @@ import Footer from "../src/components/footer/footer"
 import Contact from './pages/contact';
 import Frontpage from './pages/frontpage';
 import Gallery from './pages/gallery';
+import AboveFooter from './components/aboveFooter/aboveFooter';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-
+    <AboveFooter/>
     <Footer></Footer>
     </div>
   </Router>    

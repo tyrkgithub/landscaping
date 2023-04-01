@@ -1,0 +1,8 @@
+.aboveFooter{
+background-color: var(--clr2);
+margin: 0;
+
+}
+.aboveFooter h4 {
+font-size: 20px;
+}

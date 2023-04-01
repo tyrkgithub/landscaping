@@ -3,9 +3,12 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import "./footer.css";
 
+
 //function that creates a footer element for the App
 function Footer() {
   return (
+    <div>
+    
     <footer className="footer">
       <div className="container-fluid justify-content-center">
         <ul className="navbar-nav justify-content-center">
@@ -23,6 +26,7 @@ function Footer() {
         </ul>
       </div>
     </footer>
+    </div>
   );
 }
 //exports the file to be used elsewhere
