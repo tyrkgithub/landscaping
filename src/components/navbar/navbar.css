@@ -1,5 +1,7 @@
 .navbar {
   background-color: var(--clr) !important;
+  position: relative;
+  
 }
 
 .nav-item {
@@ -8,6 +10,7 @@
   padding-right: 50px;
   color: var(--clr5) !important;
   text-shadow: 1px 1px var(--clr1);
+ 
 }
 
 .nav-link {
@@ -17,8 +20,7 @@
   padding: 3px;
   color: var(--clr5);
   text-shadow: 1px 1px var(--clr5);
-  border: 5px solid var(--clr3);
-  border-style: dotted;
+  border-top: 5px solid var(--clr3);
   border-radius: 10px;
   font-size: 30px !important;
 }
@@ -31,6 +33,10 @@
 .navbar-nav.justify-content-center {
   flex-direction: row !important;
   display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 60px;
 }
 
 .container-fluid.justify-content-center {
@@ -41,6 +47,11 @@
 .nav-link.active {
   color: var(--clr1) !important;
 }
-.navbar.navbar-expand-lg.navbar-light.bg-light {
-  padding: 0;
+
+@media only screen and (max-width: 480px){
+.nav-item{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+  
 }

@@ -11,7 +11,7 @@ import Gallery from './pages/gallery';
 function App() {
   return (
     <Router>
-    <div className="wrapper">
+    <div>
       <Navbar />
 
       <Routes>

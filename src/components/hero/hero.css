@@ -5,20 +5,25 @@
   background-size: cover;
   background-position: center;
   position: relative;
-}
-
-.hero h1,
-.hero h2 {
-  color: var(--clr1);
-  text-shadow: 2px 2px var(--clr1);
+  text-align: center;
 }
 
 .hero h1 {
   font-size: 80px;
-  padding-top: 140px;
+  padding-top: 120px;
   margin-top: 0;
+  color: var(--clr1);
+  text-shadow: 2px 2px var(--clr5);
 }
 
 .hero h2 {
   font-size: 60px;
+  color: var(--clr5);
+  text-shadow: 2px 2px var(--clr1);
+}
+
+@media only screen and (max-width: 480px){
+  .hero h1 {
+    font-size: 60px;
+  }
 }
