@@ -5,9 +5,31 @@ import "./belowHero.css";
 //function that creates a hero element for the App
 function BelowHero() {
   return (
+    <div>
     <div className="belowHero text-center">
       <h2 className="belowHero h2">Design. Transform. Enjoy. Distinctive landscaping at its finest.</h2>
     </div>
+    <div className="belowBelow">
+      <h3 className="belowLocation">
+       Locations
+      </h3>
+      <div className="locationUlDiv">
+        <ul className="loactionUl">
+          <li className="location">
+            Redditch
+          </li>
+          <li className="location">
+            Bromsgrove
+          </li>
+          <li className="location">
+            Droitwich
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    </div>
+    
   );
 }
 

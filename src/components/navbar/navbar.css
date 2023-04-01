@@ -20,7 +20,7 @@
   padding: 3px;
   color: var(--clr5);
   text-shadow: 1px 1px var(--clr5);
-  border-top: 5px solid var(--clr3);
+  border-bottom: 5px solid var(--clr3);
   border-radius: 10px;
   font-size: 30px !important;
 }

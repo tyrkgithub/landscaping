@@ -1,9 +1,10 @@
 .belowHero {
-  height: 200px;
+  height: 110px;
   background-size: cover;
   background-position: center;
   position: relative;
   background-color: var(--clr3);
+  padding-top: 10px;
 }
 
 .belowHero h2 {
@@ -11,4 +12,18 @@
   color: var(--clr5);
   text-shadow: 2px 2px var(--clr1);
   margin: 0;
+}
+
+.location {
+  list-style: none;
+}
+.loactionUl{
+  padding-left: 0;
+}
+
+@media only screen and (max-width: 480px){
+  .belowHero h2 {
+    font-size: 25px;
+   
+  }
 }
