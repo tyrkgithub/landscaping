@@ -1,5 +1,6 @@
 import React from "react";
 import "../pages/pages.css";
+import ContactForm from "../components/contactForm/contactForm";
 
 
 
@@ -7,7 +8,7 @@ import "../pages/pages.css";
 function Contact() {
   return (
     <section className="body section">
-     
+     <ContactForm/>
     </section>
   );
 }

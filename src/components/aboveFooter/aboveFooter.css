@@ -1,8 +1,10 @@
 .aboveFooter{
-background-color: var(--clr2);
+background-color: var(--clr1);
 margin: 0;
+height: 80px;
 
 }
-.aboveFooter h4 {
+h4 {
 font-size: 20px;
+margin: 0px;
 }
