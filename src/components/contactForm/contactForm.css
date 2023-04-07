@@ -1,12 +1,16 @@
 .form{
-    max-width: 550px;
     width: 90%;
     background: var(--clr5);
     margin: 30px;
     padding: 40px;
     border-radius: 3px;
     box-sizing: border-box;
+    justify-content: center;
+    border-radius: 15px;
+    
 }
+
+
 
 h1 {
     margin: 0;
@@ -26,7 +30,12 @@ input, textarea {
     outline: none;
     resize: none;
     border: none;
+    border-radius: 10px;
     border-bottom: 1px solid black;
+}
+
+input {
+    height: 30px;
 }
 
 input[type="text"]:focus, textarea:focus  {
@@ -42,7 +51,7 @@ textarea::-webkit-scrollbar-thumb {
 
 }
 
-.centr {
+.center {
     text-align: center;
 }
 
@@ -54,7 +63,7 @@ input[type="submit"]{
     color: white;
     font-size: 17px;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 10px;
 
 }
 
