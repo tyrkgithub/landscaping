@@ -8,7 +8,7 @@ function AboveFooter() {
   return (
     <div className="aboveFooter">
       <h4>Call Today</h4>
-      <Link to="tel:07985922312">07985922312</Link>
+      <Link className="number" to="tel:07985922312">07985922312</Link>
       
     </div>
   );

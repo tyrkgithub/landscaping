@@ -7,13 +7,11 @@ import "./footer.css";
 //function that creates a footer element for the App
 function Footer() {
   return (
-    <div>
+    <div className="footer-parent">
     
     <footer className="footer">
-      <div className="container-fluid justify-content-center">
-        <ul className="navbar-nav justify-content-center">
-        
-          <li className="nav-item">
+    
+      <li className="footer-item">
             <a
               rel="noreferrer"
               target="_blank"
@@ -23,8 +21,7 @@ function Footer() {
               Tia <FaGithub />
             </a>
           </li>
-        </ul>
-      </div>
+ 
     </footer>
     </div>
   );

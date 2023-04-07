@@ -12,7 +12,7 @@ import AboveFooter from './components/aboveFooter/aboveFooter';
 function App() {
   return (
     <Router>
-    <div>
+    <div className='app'>
       <Navbar />
 
       <Routes>

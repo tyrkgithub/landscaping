@@ -11,16 +11,6 @@ function Navbar() {
         <ul className="navbar-nav justify-content-center">
           <li className="nav-item">
             <NavLink
-              to="/home"
-              className={({ isActive }) =>
-                isActive ? "nav-link active" : "nav-link"
-              }
-            >
-              Home
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
               to="/gallery"
               end
               className={({ isActive }) =>
@@ -28,6 +18,16 @@ function Navbar() {
               }
             >
               Gallery
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink
+              to="/home"
+              className={({ isActive }) =>
+                isActive ? "nav-link active" : "nav-link"
+              }
+            >
+              Home
             </NavLink>
           </li>
           <li className="nav-item">

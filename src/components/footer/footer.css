@@ -3,7 +3,9 @@
    margin-top: auto;
    height: 60px;
    width: 100%;
-   position: fixed;
+   position: absolute;
+   left:0;
+   right:0;
    bottom: 0;
 	display: flex;
 	align-items: center;
@@ -11,6 +13,21 @@
   border-top: 5px;
   border-color: var(--clr3);
   background-color: var(--clr3);
+}
+
+.footer-item {
+  list-style: none;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: var(--clr3) !important;
+
+ 
+}
+
+.footer-partent{
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 .footerLinks {

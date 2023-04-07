@@ -1,12 +1,20 @@
 :root {
-	--clr1: #51EDB8;
-	--clr2: #5EF754;
-	--clr3: #D7E058;
-	--clr4: #FAD249;
-	--clr5: #ED9C51;
+	--clr1: #00ffdd;
+	--clr2: #15de07;
+	--clr3: #baf86d;
+	--clr4: #f8d152;
+	--clr5: #f2981a;
 }
 
-.App {
+.app {
   text-align: center;
   background-color: var(--clr1);
+  min-height: 100%;
+  padding-bottom: 60px;
+  position: relative;
+}
+html, body, .body-section {
+	min-height: 100%;
+	display: flexbox;
+	flex-direction: column;
 }

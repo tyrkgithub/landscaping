@@ -1,10 +1,21 @@
 .aboveFooter{
-background-color: var(--clr1);
+background-color: var(--clr4);
 margin: 0;
-height: 80px;
-
+height: 60px;
+color: aliceblue;
+padding-top: 10px;
 }
+
 h4 {
 font-size: 20px;
-margin: 0px;
+margin: 5px;
+}
+.number{
+    color: var(--clr2);
+    text-decoration:  none;
+    
+}
+
+.number:hover{
+    color: var(--clr1);
 }

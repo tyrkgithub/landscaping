@@ -3,22 +3,23 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  background-color: var(--clr3);
-  padding-top: 10px;
+  background-color: var(--clr1);
+  padding-top: 13px;
   border: 4px var(--clr4)
 }
 
 .belowHero h2 {
-  font-size: 40px;
-  color: var(--clr1);
-  text-shadow: 2px 2px var(--clr5);
+  font-size: 30px;
+  color: white;
+ 
   margin: 0;
 }
 
 .belowBelow{
-  background-color: var(--clr4);
+  background-color: var(--clr3);
   position: relative;
   height: 80px;
+  color: aliceblue;
 
 }
 .belowLocation {
@@ -29,7 +30,7 @@
 .location {
   list-style: none;
   display: inline;
-  padding: 10px;
+  padding: 30px;
  
 }
 .loactionUl{
