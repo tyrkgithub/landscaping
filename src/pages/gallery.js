@@ -1,5 +1,6 @@
 import React from "react";
 import "../pages/pages.css";
+import BAndA from "../components/bAndA/bAndA";
 
 
 
@@ -7,6 +8,7 @@ import "../pages/pages.css";
 function Gallery() {
   return (
     <section className="body-section">
+      <BAndA/>
      
     </section>
   );

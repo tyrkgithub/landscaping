@@ -1,18 +1,31 @@
 // importing various folders/libraries to use here
-import React from "react";
+import React, {Component} from "react";
 import "./bAndA.css";
+import Before1 from "../../assets/before1.png";
+import After1 from "../../assets/after1.png";
 
 
-//function that creates a hero element for the App
-function BAndA() {
+class BAndA extends Component {
+  render() {
   return (
-    <div className="bAndA">
-      <h4 className="h4bAndA">Before & After</h4>
-      
-      
-    </div>
+    <section className="grid">
+     
+      <div className="gridArea">
+        <div className="before"
+        style={{ backgroundImage: `url(${Before1})` }}>
+          <p className="textBefore">Before</p>
+          <p className="textWord"> Design</p>
+        </div>
+   
+        <div className="after"
+        style={{ backgroundImage: `url(${After1})` }}>
+       <p className="textAfter">After</p>
+        </div>
+      </div>
+
+    </section>
   );
 }
+}
 
-//exports the file to be used elsewhere
 export default BAndA;

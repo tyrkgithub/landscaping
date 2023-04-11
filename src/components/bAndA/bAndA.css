@@ -1,0 +1,55 @@
+.grid
+{
+  border: 3px solid var(--clr4);
+  border-radius: 10px;
+margin: 20px;
+position: relative;
+justify-content: center;
+background-color: var(--clr3);
+}
+.gridArea {
+  justify-content: center;
+  display: grid;
+  width: auto;
+  grid-template-rows: 260px;
+  grid-template-columns: 2fr 3fr;
+  grid-template-areas:
+    "before after"
+   
+}
+.textWord{
+  color: aliceblue;
+  position:absolute;
+  top: 200px;
+  left: 70px;
+  font-size: 30px;
+}
+.textBefore{
+  color: aliceblue;
+  position:absolute;
+  top: 150px;
+}
+.textAfter{
+  position:absolute;
+  top: 215px;
+  color: aliceblue;
+}
+
+.before
+{
+  height: 180px;
+  background-size: cover;
+  margin: 5px;
+  border: 3px solid var(--clr4);
+  border-radius: 10px;
+}
+
+.after{
+  background-size: cover;
+  margin: 5px;
+  border: 3px solid var(--clr4);
+  border-radius: 10px;
+  grid-area: 1 4 ;
+}
+
+ 
