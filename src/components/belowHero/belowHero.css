@@ -21,7 +21,7 @@
 .belowBelow{
   background-color: var(--clr3);
   position: relative;
-  height: 80px;
+  height: 90px;
   color: aliceblue;
 
 }
@@ -29,14 +29,16 @@
   margin: 0;
   padding: 10px;
   text-shadow: 1px 1px var(--clr5);
+  font-size: 25px;
 }
 
 .location {
   list-style: none;
+  position: relative;
   display: inline;
   padding: 30px;
   text-shadow: 1px 1px var(--clr2);
- 
+ font-size: 25px;
 }
 .loactionUl{
   padding-left: 0;
@@ -48,5 +50,23 @@
   .belowHero h2 {
     font-size: 25px;
    
+  }
+}
+
+@media only screen and (min-width: 961px){
+  .belowHero {
+    height: 80px;
+   
+  }
+}
+
+@media only screen and (max-width: 886px){
+  .location{
+   display: block;
+   padding: 5px;
+   font-size: 20px;
+  }
+  .belowBelow{
+    height: 230px;
   }
 }

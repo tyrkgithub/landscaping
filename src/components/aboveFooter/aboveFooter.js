@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 function AboveFooter() {
   return (
     <div className="aboveFooter">
-      <h4>Call Today</h4>
+      <h4>GET IN TOUCH</h4>
       <Link className="number" to="tel:07985922312">07985922312</Link>
-      
+      <p>Call today for your FREE quote - No hassle. No obligations. No Fuss. </p>
     </div>
   );
 }
