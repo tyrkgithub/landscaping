@@ -25,3 +25,10 @@ margin: 5px;
 p {
     margin: 10px;
 }
+
+@media only screen and (max-width: 549px){
+    .aboveFooter {
+      height: 120px;
+     
+    }
+  }

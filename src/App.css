@@ -13,8 +13,18 @@
   padding-bottom: 60px;
   position: relative;
 }
-html, body, .body-section {
+html, body {
 	min-height: 100%;
 	display: flexbox;
 	flex-direction: column;
+}
+
+.body-section{
+	justify-content: center;
+}
+
+.wrapper{
+	margin: 10px;
+	justify-content: center !important;
+	display: inline;
 }

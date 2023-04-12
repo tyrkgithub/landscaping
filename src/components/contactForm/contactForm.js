@@ -57,6 +57,7 @@ function emailIsValid(email){
 }
 
   return (
+    <div className="wrapper">
     <div className="contactForm">
      <div id="overlay">
         <form target="_blank" className="form"  onSubmit={(event) => {
@@ -85,6 +86,7 @@ function emailIsValid(email){
 
         </form>
      </div>
+    </div>
     </div>
   );
 }

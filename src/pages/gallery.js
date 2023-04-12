@@ -1,6 +1,8 @@
 import React from "react";
 import "../pages/pages.css";
-import BAndA from "../components/bAndA/bAndA";
+import BAndA1 from "../components/bAndA/bAndA1";
+import BAndA2 from "../components/bAndA/bAndA2";
+import BAndA3 from "../components/bAndA/bAndA3";
 
 
 
@@ -8,7 +10,11 @@ import BAndA from "../components/bAndA/bAndA";
 function Gallery() {
   return (
     <section className="body-section">
-      <BAndA/>
+      <div className="wrapper">
+      <BAndA1/>
+      <BAndA2/>
+      <BAndA3/>
+      </div>
      
     </section>
   );

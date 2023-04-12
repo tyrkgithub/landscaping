@@ -1,31 +1,33 @@
 // importing various folders/libraries to use here
 import React, {Component} from "react";
 import "./bAndA.css";
-import Before1 from "../../assets/before1.png";
-import After1 from "../../assets/after1.png";
+import Before3 from "../../assets/before9.png";
+import After3 from "../../assets/after9.png";
 
 
-class BAndA extends Component {
+class BAndA3 extends Component {
   render() {
   return (
+    <div className="wrapper">
     <section className="grid">
      
       <div className="gridArea">
         <div className="before"
-        style={{ backgroundImage: `url(${Before1})` }}>
+        style={{ backgroundImage: `url(${Before3})` }}>
           <p className="textBefore">Before</p>
-          <p className="textWord"> Design</p>
+          <p className="textWord">Beautiful</p>
         </div>
    
         <div className="after"
-        style={{ backgroundImage: `url(${After1})` }}>
+        style={{ backgroundImage: `url(${After3})` }}>
        <p className="textAfter">After</p>
         </div>
       </div>
 
     </section>
+    </div>
   );
 }
 }
 
-export default BAndA;
+export default BAndA3;

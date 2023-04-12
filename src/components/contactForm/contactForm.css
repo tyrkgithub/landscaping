@@ -1,7 +1,7 @@
 .form{
     width: 90%;
     background: var(--clr4);
-    margin: 30px;
+    margin: auto;
     padding: 40px;
     border-radius: 3px;
     box-sizing: border-box;
