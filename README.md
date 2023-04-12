@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+<h1>Landscape Gardening Website</h1>
+  <br/>
+ <h2>Application Overview</h2> 
+   <p>Having recently finshed my education with EdX on the Front-End Web Application Development course, I want to continue regular coding and expanding my knowledge with Javascript, CSS and React. A member of my family needs a website built for their Landscape Gardening business. I aim to create a visually pleasing site which showcases the business in a gallery and also has a contact page.</p>
+  
+ <br/>
+  <ul>
+    <li><a href="https://github.com/tyrkgithub/landscaping/blob/main/README.md#link">Link</a></li>
+    <li><a href="https://github.com/tyrkgithub/landscaping/blob/main/README.md#acceptance-criteria">User Story</a></li>
+    <li><a href="https://github.com/tyrkgithub/landscaping/blob/main/README.md#resources">Resources</a></li>
+    <li><a href="https://github.com/tyrkgithub/landscaping/blob/main/README.md#visual-references">Visual References</a></li>
+    <li><a href="https://github.com/tyrkgithub/landscaping/blob/main/README.md#notes">Notes</a></li>
+  
+  </ul>
+  <br/>
+  
+ <h2>Link</h2>
+  
+  <br/>
+  
+  <p> Please find the link to my deployed application <a href="https://chrisyorkelandscaping.netlify.app/gallery">here.</a> </p>
+  
+  <br/>
+  
+ <h2>User Story</h2>
+  
+  <br/>
+  
+  >As a Landscape Gardening business owner<br/>
+     I need a website that has a gallery and a contact page<br/>
+     So that customers can see what the business does and has a way to contact<br/>
+  </p>
+  
+  <br/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  
+<h2>Acceptance Criteria</h2>
 
-## Available Scripts
+  <br/>
+  
+ 
+  <ul>
+    <li>The app is responsive</li>
+    <li>The app has home, gallery and contact pages</li>
+    <li>The app has a form and the contents are sent to the business email</li>
+    <li>The gallery has a minimum of 3 before and afters as well a section to view all photos</li>
+    <li>The app has been tested and is ready to be put onto a paid domain</li>
+  </ul>
+  
+  <br/>
 
-In the project directory, you can run:
+<h2>Resources</h2>
 
-### `npm start`
+  <br/>
+ 
+  <p>I have used my knowledge I have learnt from the edX course<br/>
+   <br/>
+  
+  <br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ <h2>Visual References</h2>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  
+ <h2>Notes</h2>
+ 
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
