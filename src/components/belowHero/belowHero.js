@@ -16,22 +16,11 @@ function BelowHero() {
       <div className="locationUlDiv">
         <ul className="loactionUl">
         <li className="location">
-            Bromsgrove
-          </li>
-          <li className="location">
-            Redditch
-          </li>
-       
-          <li className="location">
-            Rubery
+            BROMSGROVE & SURROUNDING AREAS
           </li>
          
-          <li className="location">
-            Droitwich
-            </li>
-          <li className="location">
-          Halesowen
-          </li>
+       
+        
           
         </ul>
         

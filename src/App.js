@@ -7,6 +7,7 @@ import Contact from './pages/contact';
 import Frontpage from './pages/frontpage';
 import Gallery from './pages/gallery';
 import AboveFooter from './components/aboveFooter/aboveFooter';
+import NavEx from './components/navEx/navEx';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <Router>
     <div className='app'>
       <Navbar />
+      <NavEx />
 
       <Routes>
         <Route path="/" element={<Frontpage />} />

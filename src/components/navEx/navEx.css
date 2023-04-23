@@ -1,0 +1,34 @@
+.navEx{
+background-color: var(--clr4);
+margin: 0;
+height: 40px;
+color: aliceblue;
+padding-top: 10px;
+}
+
+h4 {
+font-size: 20px;
+margin: 5px;
+
+}
+.number{
+    color: var(--clr2);
+    text-decoration:  none;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.number:hover{
+    color: var(--clr1);
+}
+
+p {
+    margin: 10px;
+}
+
+@media only screen and (max-width: 549px){
+    .aboveFooter {
+      height: 120px;
+     
+    }
+  }

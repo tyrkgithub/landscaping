@@ -37,7 +37,7 @@ function Navbar() {
                 isActive ? "nav-link active" : "nav-link"
               }
             >
-              Contact
+              Services
             </NavLink>
           </li>
         </ul>

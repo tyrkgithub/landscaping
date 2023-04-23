@@ -1,0 +1,27 @@
+
+.card-title {
+  color: var(--clr5);
+  font-family: Rubik Maze;
+  text-shadow: 2px 2px var(--clr1);
+}
+
+.serviceImage {
+  height: 200px;
+}
+
+.card {
+  width: 20rem;
+  margin: 10px;
+  object-fit: cover;
+}
+
+.gridArea2 {
+  justify-content: center;
+  display: grid;
+  width: auto;
+  grid-template-rows: 260px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "slabbing turf fencing"
+   
+}
