@@ -22,9 +22,6 @@ margin: 5px;
     color: var(--clr1);
 }
 
-p {
-    margin: 10px;
-}
 
 @media only screen and (max-width: 549px){
     .aboveFooter {

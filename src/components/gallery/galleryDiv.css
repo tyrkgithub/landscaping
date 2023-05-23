@@ -1,0 +1,28 @@
+.gallery-grid {
+  border-radius: 10px;
+  margin: 25px 100px 5px 100px;
+  position: relative;
+  justify-content: center;
+}
+.gallery-gridArea {
+  margin-top: 10px;
+  display: grid;
+  padding: 10px;
+  height: 250px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "one two three";
+}
+
+.one {
+  background-size: cover;
+  margin: 10px;
+}
+
+.two {
+  background-size: cover;
+  margin: 10px;
+}
+.three {
+  background-size: cover;
+  margin: 10px;
+}

@@ -10,6 +10,7 @@ function Footer() {
     <div className="footer-parent">
     
     <footer className="footer">
+      <p className="copyright">&copy; Chris Yorke Landscaping</p>
     
       <li className="footer-item">
             <a
@@ -18,7 +19,7 @@ function Footer() {
               className="footerLinks"
               href="https://github.com/tyrkgithub"
             >
-              Tia <FaGithub />
+              tyrkpages  <FaGithub />
             </a>
           </li>
  

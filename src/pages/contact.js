@@ -1,6 +1,7 @@
 import React from "react";
 import "../pages/pages.css";
-import Cards from "../components/services/Cards";
+import Services from "../components/services/services";
+
 
 
 
@@ -9,7 +10,8 @@ import Cards from "../components/services/Cards";
 function Contact() {
   return (
     <section className="body-section">
-      <Cards />
+      <Services/>
+     
      
     </section>
   );

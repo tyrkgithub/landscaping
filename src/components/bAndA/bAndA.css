@@ -1,56 +1,46 @@
-.grid
-{
-
-  border: 3px solid var(--clr4);
+.grid {
   border-radius: 10px;
-margin: 5px 30px 5px 30px;
-position: relative;
-justify-content: center;
-background-color: var(--clr3);
+  margin: 25px 100px 5px 100px;
+  position: relative;
+  justify-content: center;
 }
 .gridArea {
   justify-content: center;
   display: grid;
   width: auto;
+  height: 400px;
   grid-template-rows: 260px;
   grid-template-columns: 2fr 3fr;
-  grid-template-areas:
-    "before after"
-   
+  grid-template-areas: "before after";
 }
-.textWord{
+
+.textBefore {
   color: aliceblue;
-  position:relative;
-  top: 200px;
-  text-align: left;
-  font-size: 30px;
+  position: absolute;
+  top: 260px;
+  margin-left: 15px;
+  font-size: 20px;
 }
-.textBefore{
-  color: aliceblue;
-  position:absolute;
-  top: 150px;
-}
-.textAfter{
-  position:absolute;
-  top: 215px;
+.textAfter {
+  position: absolute;
+  top: 350px;
+  margin-left: 15px;
+  font-size: 20px;
   color: aliceblue;
 }
 
-.before
-{
-  height: 180px;
+.before {
+  height: 300px;
   background-size: cover;
   margin: 5px;
-  border-radius: 10px;
+  border: 10px solid var(--clr2);
 }
 
-.after{
+.after {
   background-size: cover;
+  height: 390px;
   margin: 5px;
-  border-radius: 10px;
-  grid-area: 1 4 ;
+
+  border: 10px solid var(--clr4);
+
 }
-
-
-
- 

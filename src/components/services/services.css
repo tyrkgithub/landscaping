@@ -1,0 +1,154 @@
+.main {
+  height: 600px;
+}
+
+.services-grid {
+  border-radius: 10px;
+  margin: 25px 100px 5px 100px;
+  position: relative;
+  justify-content: center;
+}
+
+.services-gridArea {
+  display: grid;
+  width: auto;
+  height: auto;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 365px 200px;
+  grid-template-areas:
+    "services services-aside"
+    "viewGallery services-aside";
+}
+
+.services {
+  color: aliceblue;
+  font-size: 20px;
+  background-size: cover;
+  margin: 5px;
+  margin-bottom: 50px;
+  padding: 20px;
+
+  border: 10px solid var(--clr4);
+  border-color: var(--clr4);
+}
+
+.services-h1 {
+  font-size: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0;
+  color: var(--clr2);
+  text-shadow: 2px 2px var(--clr5);
+}
+
+.services-p{
+    margin-top: 30px;
+}
+
+.services-ul {
+  color: var(--clr5);
+  list-style: none;
+  padding: 0;
+  font-size: 25px;
+}
+
+.services-aside {
+    background-size: cover;
+    text-align: center;
+    height : 485px;
+    margin: 5px;
+    margin-left: 50px;
+    padding: 30px 20px 20px 20px;
+    border: 10px solid var(--clr2);
+  }
+
+.viewGallery{
+    background-size: cover;
+    background-position: center;
+    margin: 5px;
+    
+    padding: 20px;
+}
+
+.viewGallery-h3{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    color: var(--clr1);
+    text-shadow: 2px 2px var(--clr5);
+    background-color: var(--clr3);
+
+
+}
+
+.viewGalleryButton{
+    text-decoration: none;
+    color: var(--clr5);
+    background-color: var(--clr3);
+    font-size: 20px;
+   
+}
+
+@media only screen and (max-width: 1176px){
+  .services-gridArea {
+    grid-template-rows: 450px 200px;
+  }
+
+  .services-aside{
+    height: 530px;
+    padding-top: 70px;
+  }
+
+  .main{
+    height: 685px;
+  }
+}
+
+@media only screen and (max-width: 888px){
+  .services-gridArea {
+    grid-template-rows: 500px 200px;
+  }
+
+  .services-aside{
+    height: 580px;
+    padding-top: 70px;
+  }
+
+  .main{
+    height: 735px;
+  }
+}
+
+@media only screen and (max-width: 810px){
+  .services-gridArea {
+    grid-template-rows: 550px 200px;
+  }
+
+  .services-aside{
+    height: 630px;
+    padding-top: 70px;
+  }
+
+  .main{
+    height: 785px;
+  }
+}
+
+@media only screen and (max-width: 765px){
+  .main{
+    height: 1200px;
+  }
+  .services-gridArea {
+    display: block
+  }
+  .services-aside{
+    margin-left: 5px;
+    margin-bottom: 50px;
+    padding: 10px;
+    height: 460px;
+  }
+
+}
+
+

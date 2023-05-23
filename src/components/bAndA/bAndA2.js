@@ -15,7 +15,6 @@ class BAndA2 extends Component {
         <div className="before"
         style={{ backgroundImage: `url(${Before2})` }}>
           <p className="textBefore">Before</p>
-          <p className="textWord">Unique</p>
         </div>
    
         <div className="after"
