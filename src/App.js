@@ -8,12 +8,14 @@ import Frontpage from './pages/frontpage';
 import Gallery from './pages/gallery';
 import AboveFooter from './components/aboveFooter/aboveFooter';
 import NavEx from './components/navEx/navEx';
+import Logo from './components/logo/logo';
 
 
 function App() {
   return (
     <Router>
     <div className='app'>
+      <Logo/>
       <Navbar />
       <NavEx />
 

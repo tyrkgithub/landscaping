@@ -1,0 +1,9 @@
+.logo{
+background-color: var(--clr1);
+}
+.logo-h4{
+    font-size: 30px;
+    color: var(--clr3);
+    text-shadow: 2px 2px var(--clr5);
+    margin: 0;
+}

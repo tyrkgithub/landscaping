@@ -68,3 +68,17 @@
   }
  
 }
+
+@media only screen and (max-width: 550px){
+  .belowHero{
+   height: 130px;
+  }
+  
+ }
+
+@media only screen and (max-width: 383px){
+ .belowBelow {
+  height: 120px;
+ }
+ 
+}

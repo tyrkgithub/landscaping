@@ -25,8 +25,8 @@ margin: 5px;
 
 
 @media only screen and (max-width: 549px){
-    .aboveFooter {
-      height: 120px;
-     
-    }
+  .aboveFooter {
+    height: 130px;
+   
   }
+}
