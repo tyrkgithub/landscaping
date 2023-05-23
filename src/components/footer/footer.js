@@ -1,6 +1,5 @@
 // importing various folders/libraries to use here
 import React from "react";
-import { FaGithub } from "react-icons/fa";
 import "./footer.css";
 
 
