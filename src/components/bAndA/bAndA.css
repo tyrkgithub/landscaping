@@ -44,3 +44,38 @@
   border: 10px solid var(--clr4);
 
 }
+
+@media only screen and (max-width: 950px){
+  .grid {
+    margin: 25px;
+}
+.before{
+  border: 5px solid var(--clr2);
+}
+
+.after{
+  border: 5px solid var(--clr4);
+}
+}
+
+@media only screen and (max-width: 510px){
+  .grid{
+    margin: 5px;
+  }
+  .gridArea{
+    height: 300px;
+  }
+.before{
+  height: 200px
+}
+.after{height: 300px;}
+.textBefore{
+  top: 155px;
+}
+.textAfter{
+  top:255px;
+}
+}
+
+
+
